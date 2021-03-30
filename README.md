@@ -27,3 +27,17 @@ https://www.youtube.com/c/HA-MRX
 
 https://www.youtube.com/watch?v=CZwNK6fOqEI&t=37s
 
+# Clone the other person's repo.
+# MAKES A NEW FOLDER! CAUTION!
+$ git clone https://github.com/Gemail-hack/bbq
+
+# Rename that person's remote GitHub repo.
+$ git remote rename origin Gemail-Hack
+
+# Add your remote GitHub repo
+$ git remote add origin https://github.com/ntabiso223/bbq
+
+# Push to your remote GitHub repo
+$ git push origin master --set-upstream
+
+Leave a comment
